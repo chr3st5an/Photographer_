@@ -1,0 +1,104 @@
+.home{
+background: url("../images/wallpaper.png");
+background-size: cover;
+height: 100vh;
+}
+
+.nav{
+height: 50px;
+background: #8845f4;
+border-radius: 20px;
+}
+
+.nav div{
+display: inline-block;
+position: absolute;
+padding: 15px;
+font-size: 20px;
+color: white;
+text-decoration: none;
+}
+
+#bot{
+font-size: 10px;
+background-color: #7289da;
+border-radius: 20px;
+padding: 5px;
+}
+
+.nav ul{
+position: absolute;
+right: 20px;
+}
+
+.nav ul li{
+display: inline-block;
+}
+
+.nav ul li a{
+color: white;
+padding: 5px;
+}
+
+.main{
+color: white;
+padding-left: 15px;
+padding-right: 15px;}
+
+.main th{
+padding: 10px;
+}
+
+.main td{ 
+padding-left: 3px;
+padding-right: 3px;
+padding-bottom: 3px;
+padding-top: 3px;
+}
+
+.main div{ 
+padding-bottom: 20px;
+}
+
+.arg{
+color: red;
+}
+
+.opt{
+color: yellow;
+}
+
+.tpc{
+color: #87CEFF;
+}
+
+.footer{
+padding-top: 50px;}
+
+.footer a{
+text-decoration: none;
+color: white;
+background-color: #8845f4;
+font-size: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 20px;
+}
+
+.footer h1{
+padding-top: 100px;
+padding-bottom: 50px;
+color: white;}
+
+.footer sup{ 
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+background-color: #7289da;
+font-size: 15px;
+border-radius: 20px ;
+margin-left: 5px;
+}

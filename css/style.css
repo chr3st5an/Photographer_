@@ -1,0 +1,227 @@
+.home{
+background: url("../images/wallpaper.png");
+background-size: cover;
+height: 100vh;
+}
+
+.nav{
+height: 50px;
+background: #8845f4;
+border-radius: 20px;
+}
+
+.nav div{
+display: inline-block;
+position: absolute;
+padding: 15px;
+font-size: 20px;
+color: white;
+text-decoration: none;
+}
+
+#bot{
+font-size: 10px;
+background-color: #7289da;
+border-radius: 20px;
+padding: 5px;
+}
+
+.nav ul{
+position: absolute;
+right: 20px;
+}
+
+.nav ul li{
+display: inline-block;
+}
+
+.nav ul li a{
+color: white;
+padding: 5px;
+}
+
+#pic{
+height: 250px;
+width: 250px;
+}
+
+#invite{
+text-decoration: none;
+color: white;
+}
+
+.Introduction u{ 
+padding-top: 10px;
+color: white;
+}
+
+.Introduction embed{ 
+width: 250px;
+height: 250px;
+}
+
+.Introduction p{ 
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 10px;
+padding-top: 10px;
+color: white;
+}
+
+#ss{
+height: 450px;
+width: 230px;
+border-radius: 20px;
+}
+
+#hug{
+height: 450px;
+width: 230px;
+border-radius: 20px;
+}
+
+#mod{
+height: 450px;
+width: 230px;
+border-radius: 20px;
+}
+
+#dic{
+height: 450px;
+width: 230px;
+border-radius: 20px;}
+
+.Introduction b{
+color: red;
+} 
+
+.Introduction li{ 
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#distance{
+padding-bottom: 50px;
+}
+
+.Introduction a{ 
+color: white;
+text-decoration: none;
+padding-bottom: 60px;
+}
+
+.Introduction span{ 
+font-size: 20px;
+background-color: #8845f4;
+border-radius: 20px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.footer i{ 
+background-color: #7289da;
+padding: 5px;
+border-radius: 30px;
+}
+
+.footer h1{
+padding-top: 100px;
+padding-bottom: 50px;
+color: white;
+}
+
+.footer sup{ 
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+background-color: #7289da;
+font-size: 15px;
+border-radius: 20px;
+margin-left: 5px;
+}
+
+.footer a{ 
+text-decoration: none;
+color: white;
+}
+
+.footer div{
+padding-top: 50px;
+}
+
+#dbl{
+font-size: 18px;
+color: white;
+text-decoration: none;
+background-color: red;
+padding: 10px 30px;
+border-radius: 20px;
+}
+
+/* Css of the about.html */
+
+.about{
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 20px;
+}
+
+.about div h1{ 
+padding-top: 15px;
+color: white;
+}
+
+.about div img{
+width: 250px;
+height: 250px;
+}
+
+.about div p{ 
+color: white;
+padding: 10px 0px;
+}
+
+.about div p a{ 
+color: white;
+text-decoration: none;
+background-color: #7289da;
+padding: 5px 10px;
+border-radius: 20px;
+}
+
+.about div span{
+color: aqua; 
+font-size: 17px;
+}
+
+.f{
+padding-top: 50px;}
+
+#p{
+padding-bottom: 20px;
+}
+
+#a{
+margin-top: 50px;
+text-decoration: none;
+color: white;
+background-color: #8845f4;
+font-size: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 20px;
+}
+
+#lol{
+padding-bottom: 30px;
+color: #87CEFF;
+}
+
+

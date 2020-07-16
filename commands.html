@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+   <head>
+       <meta charset="UTF-8">
+       <title> Photographer </title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta name="author" content="Christian">
+       <meta name="description" content="About Photographer Bot">
+       <meta name="keywords" content= "Identity V, Discord, Bot, Photographer">
+       <link rel="stylesheet" href="css/style2.css">
+   </head>
+   <body class="home">
+   
+      <!-- Nav Bar -->
+      
+      <div class="nav">  
+          <a href="index.html"> <div> Photographer <sup id="bot"> BOT </sup> </div> </a> 
+             <ul>
+               <li> <a href="commands.html"> Commands </a> </li>
+               <li> <a href="about.html"> About </a> </li>
+            </ul>
+      </div>
+      
+      <!-- Main part -->
+      
+      <div class="main">
+         <center>
+            <h1> <u> Commands </u> </h1>
+            
+         <!-- Tables start -->
+         <!-- Admin commands -->
+            
+         <div>
+            <p> V{-command} <span class="arg"> {necessary} <span class="opt"> (optional) </p>
+            <h2> Admin </br> Commands </h2>
+            <table border="1">  
+               <thead>  
+                  <tr>  
+                     <th> </th>
+                     <th> <h2> Usage </h2> </th>
+                     <th> <h2> Bot Action </h2> </th>
+                  </tr>
+               </thead>
+               <tbody>  
+                  <tr>  
+                     <td> welcomer </td>
+                     <td> Vwelcomer <span class="arg"> {#channel} {message} </td>
+                     <td> Sends given message to provided channel when someone joins </td>
+                  </tr>
+                  <tr>  
+                     <td> leaver </td>
+                     <td> Vleaver <span class="arg"> {#channel} {message} </td>
+                     <td> Same as welcomer but just when someone leaves </td>
+                  </tr>
+                  <tr>  
+                     <td> logchannel </td>
+                     <td> Vlogchannel <span class="arg"> {#channel} </td>
+                     <td> Sets a logchannel in which mutes, kicks etc will be send to </td>
+                  </tr>
+                  <tr>  
+                     <td> clear </td>
+                     <td> Vclear <span class="arg"> {2-100}</td>
+                     <td> Deletes the past 1-99 messages </td>
+                  </tr>
+                     <td> warn </td>
+                     <td> Vwarn <span class="arg"> {@user} <span class="opt"> (reason) </td>
+                     <td> Warns an user by sending a dm with the reason </td>
+                  <tr>  
+                     <td> (un-)mute </td>
+                     <td> Vmute <span class="arg"> {@user} <span class="opt"> (reason)</td>
+                     <td> Mutes an user until they get unmuted </td>
+                  </tr>
+                  <tr> 
+                     <td> kick </td>
+                     <td> Vkick <span class="arg"> {@user} <span class="opt"> (reason) </td>
+                     <td> Kicks mentioned user from server </td>
+                  </tr>
+                  <tr>  
+                     <td> ban </td>
+                     <td> Vban <span class="arg"> {@user} <span class="opt"> (reason) </td>
+                     <td> Bans mentioned user from server </td>
+                  </tr>
+                  <tr>  
+                     <td> unbanid </td>
+                     <td> Vunbanid <span class="arg"> {userID} </td>
+                     <td> Unbans an user by using their id </td>
+                  </tr>
+               </tbody>
+            </table>  
+         </div>
+         
+         <!-- Everyones commands -->
+           
+         <div>     
+            <h2> Everyone <br/> Commands </h2>
+            <table border="1">
+               <thead>  
+                  <tr> 
+                     <th> </th>
+                     <th> <h2> Usage </h2> </th>
+                     <th> <h2> Bot Action </h2> </th>
+                  </tr>
+               </thead>      
+               <tbody> 
+                     <td> help </td>
+                     <td> Vhelp <span class="opt"> (topic) </td>
+                     <td> Shows a list of all commands </td>
+                  <tr>  
+                     <td> avatar </td>
+                     <td> Vavatar <span class="opt"> (@user) </td>
+                     <td> Shows the profile picture of the mentioned user. If nobody is mentioned it shows the profile picture of you </td>
+                  </tr>
+                  <tr>  
+                     <td> server </td>
+                     <td> Vserver </td>
+                     <td> Sends a dm with server information </td>
+                  </tr>
+                  <tr>  
+                     <td> feedback </td>
+                     <td>  Vfeedback <span class="arg"> {feedback}</td>
+                     <td> Sends your feedback to the developer </td>
+                  </tr>
+                  <tr>  
+                     <td> suggest </td>
+                     <td> Vsuggest <span class="arg"> {suggestion} </td>
+                     <td> Sends your suggestion to the developer </td>
+                  </tr>
+                   <tr>  
+                     <td> aboutbot </td>
+                     <td> Vaboutbot </td>
+                     <td> Shows Information about the bot </td>
+                  </tr>
+                  <tr>  
+                     <td> google </td>
+                     <td> Vgoogle <span class="arg"> {search} </td>
+                     <td> Googles for you and sends a link with the results </td>
+                  </tr>
+                  <tr>  
+                     <td> youtube </td>
+                     <td> Vyoutube <span class="arg"> {search} </td>
+                     <td> Searches for you on youtube and leaves a link with the results </td>
+                  </tr>
+                  <tr>  
+                     <td> dice </td>
+                     <td> Vdice </td>
+                     <td> Rolls a random number between 1 and 6 </td>
+                  </tr>
+                  <tr>  
+                     <td> choose </td>
+                     <td> Vchoose a <span class="arg"> OR </span> b </td>
+                     <td> Chooses for you between option a and option b </td>
+                  </tr>
+                     <td> ping </td>
+                     <td> Vping </td>
+                     <td> Shows the current ping of the bot </td>
+                  <tr>  
+                     <td> embed </td>
+                     <td> Vembed <span class="arg"> { </span> <span class="opt"> author <span class="arg"> | </span> title <span class="arg"> | </span> description <span class="arg">|</span> footer <span class="arg">} </td>
+                     <td> Lets you make your own embed message </td>
+                  </tr>
+                  <tr> 
+                     <td> discover </td>
+                     <td> Vdiscover <span class="opt">(@user) </td>
+                     <td> Lets discover someone's profile </td>
+                  </tr>
+                  <tr>  
+                     <td> emoji </td>
+                     <td> Vemoji <span class="arg"> {emojiName} </td>
+                     <td> Sends the emoji </td>
+                  </tr>
+                  <tr>  
+                     <td> fight </td>
+                     <td> Vfight <span class="arg"> {@user} </td>
+                     <td> Fight against your friends </td>
+                  </tr>
+                  <tr>  
+                     <td> marry </td>
+                     <td> Vmarry <span class="arg"> {@user} </td>
+                     <td> Marry someone </td>
+                  </tr>
+                  <tr>  
+                     <td> divorce </td>
+                     <td> Vdivorce </td>
+                     <td> Your relationship sucks? Divorce then </td>
+                  </tr>
+                  <tr>  
+                     <td> say </td>
+                     <td> Vsay <span class="arg"> {message} </td>
+                     <td> Deletes and repeats given message </td>
+                  </tr>
+                  <tr>  
+                     <td> cookie </td>
+                     <td> Vcookie <span class="arg">{@user} </td>
+                     <td> Gives the mentioned user a cookie </td>
+                  </tr>
+                  <tr>  
+                     <td> pray </td>
+                     <td> Vpray </td>
+                     <td> Pray and your luck will become higher </td>
+                  </tr>
+                   <tr>  
+                     <td> ship </td>
+                     <td> Vship <span class="arg">{@user1} {@user2} </td>
+                     <td> Ships two users </td>
+                  </tr>
+                  <tr>  
+                     <td class="tpc"> <u> Action </td>
+                     <td> Vhug <span class="arg"> {@user} </td>
+                     <td> Hugs the mentioned user </td>
+                  </tr>
+                  <tr>  
+                     <td class="tpc"> <u> Emotes </td>
+                     <td> Vcry </td>
+                     <td> Shows everyone that you cry </td>
+                  </tr>
+               </tbody>  
+            </table>
+         </div>
+         
+         <!-- Identity V Commands -->
+         
+         <div>
+            <h2> Identity V <br/> Commands </h2>
+            <table border="1"> 
+               <thead>  
+                  <tr>
+                     <th>  </th>
+                     <th> <h2> Usage </th>
+                     <th> <h2> Bot Action </th>
+                  </tr>
+               </thead>
+               <tbody>  
+                  <tr>
+                     <td> clues </td>
+                     <td> Vclues <span class="opt"> (@user) </td>
+                     <td> Shows how many clues the mentioned user has. If nobody is mentioned, it will show the amount of clues of yourself </td>
+                  </tr>
+                  <tr> 
+                     <td> daily </td>
+                     <td> Vdaily </td>
+                     <td> Gain once a day 1,5k clues </td>
+                  </tr>
+                  <tr> 
+                     <td> hunt </td>
+                     <td> Vhunt </td>
+                     <td> Gain a random amount of clues by hunting </td>
+                  </tr>
+                  <tr> 
+                     <td> decode </td>
+                     <td> Vdecode </td>
+                     <td> Gain a random amount of clues by decoding </td>
+                  </tr>
+                  <tr> 
+                     <td> steal </td>
+                     <td> Vsteal <span class="arg"> {@user} </td>
+                     <td> Try to steal clues from another user </td>
+                  </tr>
+                  <tr> 
+                     <td> gamble </td>
+                     <td> Vgamble <span class="arg"> {amountClues}</td>
+                     <td> Gamble with your clues and have a chance of multiply your stack or losing them if you are unlucky </td>
+                  </tr>
+                  <tr> 
+                     <td> shop </td>
+                     <td> Vshop </td>
+                     <td> Shows you the shop of the manor owner. He has nice things which are buyable for an small amount of clues </td>
+                  </tr>
+                  <tr> 
+                     <td> buy </td>
+                     <td> Vbuy </td>
+                     <td> Buy things from the shop with your clues </td>
+                  </tr>
+                  <tr> 
+                     <td> tansfer </td>
+                     <td> Vtransfer <span class="arg"> {@user} {cluesAmount} </td>
+                     <td> Give someone your clues </td>
+                  </tr>
+                  <tr>  
+                     <td> <details> <summary> <span class="tpc"> <u> Hunter </u> </span> </summary> hellember, joker, ripper, gamekeeper, soulweaver, wuchang, geisha, photographer, burke, dreamwitch, axeboy, 26, ann, bloodyqueen, lizard, feaster </details> </td>
+                     <td> Vhellember </td>
+                     <td> Shows information about requested hunter </td>
+                  </tr>
+                  <tr>  
+                     <td> <span class="tpc"> <u> Survivor </td>
+                     <td> Vthief </td>
+                     <td> Shows information about requested survivor </td>
+                  </tr>
+                  <tr>  
+                     <td> <span class="tpc"> <u> Map </td>
+                     <td> Vredchurch </td>
+                     <td> Returns a picture of the requested map</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div class="footer">  
+         <center>
+            <a href="index.html"> Home </a>
+            <h1> Photographer<sup>BOT</sup></h1>
+         </center>
+      </div>
+   </body>
+</html>
+
